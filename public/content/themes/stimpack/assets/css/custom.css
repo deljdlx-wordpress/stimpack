@@ -1,0 +1,18 @@
+#hero .hero-container {
+  min-width: 100%;
+  position: relative;
+  padding-left: 38%;
+}
+
+.hero-title {
+  position: relative;
+}
+
+
+.hero-text {
+  position: relative;
+}
+
+#header .profile img {
+  height: 120px;
+}
