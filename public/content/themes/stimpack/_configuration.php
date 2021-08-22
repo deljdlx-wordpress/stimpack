@@ -58,7 +58,14 @@ define(SP_CONFIGURATION_CONSTANT_NAME, [
             'after_widget' => '</div>',
             'before_title' => '<p class="site__sidebar__widget__title">',
             'after_title' => '</p>',
-        ]
+        ],
+        'left' => [
+            'name' => "Left zone",
+            'before_widget' => '<div class="site__sidebar__widget %2$s">',
+            'after_widget' => '</div>',
+            'before_title' => '<p class="site__sidebar__widget__title">',
+            'after_title' => '</p>',
+        ],
     ],
 
     'CUSTOMIZERS' => [

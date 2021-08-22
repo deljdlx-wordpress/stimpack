@@ -49,29 +49,16 @@
 
 
         <!-- ======= About Section ======= -->
-        <?=sp_section('about');?>
-
-        <!-- ======= Facts Section ======= -->
-        <?=sp_section('facts');?>
-
-        <!-- ======= Skills Section ======= -->
-        <?=sp_section('skills');?>
-
-        <!-- ======= Resume Section ======= -->
-        <?=sp_section('resume');?>
-
-        <!-- ======= Portfolio Section ======= -->
-        <?=sp_section('portofolio');?>
-
-        <!-- ======= Services Section ======= -->
-        <?=sp_section('services');?>
-
-        <!-- ======= Testimonials Section ======= -->
-        <?=sp_section('testimonials');?>
-
-        <!-- ======= Contact Section ======= -->
-        <?=sp_section('contact');?>
-
+        <?php
+        // sp_section('about');
+        //sp_section('facts');
+        // sp_section('skills');
+        // sp_section('resume');
+        // sp_section('portofolio');
+        // sp_section('services');
+        // sp_section('testimonials');
+        // sp_section('contact');
+        ?>
 
     </main><!-- End #main -->
 

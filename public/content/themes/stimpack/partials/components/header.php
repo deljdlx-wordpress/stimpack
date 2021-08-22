@@ -38,5 +38,13 @@ $menuBackgroundColor = get_theme_mod('menu-background-color');
                 });
             echo '</ul></nav>';
         ?>
+
+        <aside class="site__sidebar">
+        	<ul>
+            	<?php dynamic_sidebar('left');?>
+            </ul>
+        </aside>
+
+
     </div>
 </header>
