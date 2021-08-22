@@ -13,8 +13,6 @@ $heroText = get_theme_mod('hero-text');
 if(!$heroText) {
     $heroText = sp_get_theme_mod_default_value('hero-text');
 }
-
-
 ?>
 
 <section id="hero" class="d-flex flex-column justify-content-center align-items-center">

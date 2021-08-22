@@ -5,8 +5,8 @@
 <meta content="" name="keywords">
 
 <!-- Favicons -->
-<link href="assets/img/favicon.png" rel="icon">
-<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="<?=get_theme_file_uri('favicon.png')?>" rel="icon">
+<link href="<?=get_theme_file_uri('favicon.png')?>" rel="apple-touch-icon">
 
 
 <?php wp_head();?>

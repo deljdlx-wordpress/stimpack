@@ -4,6 +4,7 @@ require get_theme_file_path('_source/utils/customizer.php');
 require get_theme_file_path('_source/utils/theme.php');
 require get_theme_file_path('_source/utils/menu.php');
 require get_theme_file_path('_source/utils/sidebar.php');
+require get_theme_file_path('_source/utils/post.php');
 
 
 // used to avoid linter alert
