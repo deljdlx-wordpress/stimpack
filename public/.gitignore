@@ -5,7 +5,7 @@ dist
 node_modules
 package-lock.json
 
-vendor
+/vendor
 composer.lock
 
 .htaccess
