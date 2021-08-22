@@ -15,7 +15,7 @@ if(!$heroText) {
 }
 ?>
 
-<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center" style="background-image: url(<?=$backgroundImage?>)">
     <div class="hero-container" data-aos="fade-in">
         <h1><span class="hero-title"><?=$title?></span></h1>
         <p><span class="hero-text"><?=$heroText?></span> <span class="typed hero-features-list" data-typed-items="<?=get_theme_mod('hero-features-list')?>"></span></p>
