@@ -34,6 +34,7 @@ $menuBackgroundColor = get_theme_mod('menu-background-color');
         </div>
 
         <?php
+            // IMPORTANT MENU
             echo '<nav id="navbar" class="nav-menu navbar"><ul>';
                 echo sp_get_menu('left', function($post) {
                     return '<li><a href="' . $post->url . '" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>' . $post->title . '</span></a></li>';
@@ -41,6 +42,7 @@ $menuBackgroundColor = get_theme_mod('menu-background-color');
             echo '</ul></nav>';
         ?>
 
+        <!-- IMPORTANT SIDEBAR //-->
         <aside class="site__sidebar">
         	<ul>
             	<?php dynamic_sidebar('left');?>

@@ -4,11 +4,13 @@ define('SP_CONFIGURATION_CONSTANT_NAME', 'SP_THEME_CONFIGURATION');
 
 define(SP_CONFIGURATION_CONSTANT_NAME, [
     'PATHES' => [
-        'PARTIALS' => 'partials',
-        'MENUS' => 'partials/menus',
-        'SECTIONS' => 'partials/sections',
-        'COMPONENTS' => 'partials/components'
+        'PARTIALS' => 'public/partials',
+        'MENUS' => 'public/partials/menus',
+        'SECTIONS' => 'public/partials/sections',
+        'COMPONENTS' => 'public/partials/components',
+        'ASSETS' => 'public/assets',
     ],
+
     'TEXT_DOMAIN' => 'stimpack',
     'THEME_CSS' => [
         "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i",

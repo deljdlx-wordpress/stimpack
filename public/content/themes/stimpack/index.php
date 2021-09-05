@@ -40,11 +40,27 @@
         //-->
 
 
+
+        <?php
+        while(have_posts()) {
+            the_post();
+
+            // echo get_the_title();
+            // echo '<br/>';
+
+        }
+        ?>
+
+
+
         <aside class="site__sidebar">
         	<ul>
             	<?php dynamic_sidebar('main');?>
             </ul>
         </aside>
+
+
+
 
 
 
